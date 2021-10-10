@@ -56,9 +56,11 @@ body {
   text-align: center;
   align-items: center;
 }
+
 .box{
-  margin: 0;
+margin: 0 auto;
 }
+
 
 
 /*Button*/
