@@ -1,51 +1,129 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-
-.right {
-  width: 70%;
-  background-color: #0398C5;
-}
 body {
-  height: 5000px;
-}
-.column {
-  float: left;
-  padding: 10px;
-  background-color: gray;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fdfd;
 }
 
-.left {
-  width: 29%;
-  background-color: #C5F0FD;
-}
+  /* Header */
 
-.relative {
-  background-color: #025771;
-  height: 250px;
-  padding: 10px;
-  margin: 10px;
-  display: flex;
+#header {
   position: relative;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #005864;
 }
 
+/*Logo*/
+.logo {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  padding-right: 200px;
+}
+
+/*navigation*/
+
+#navigation {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.navBar {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 24px 24px; 
+ }
+
+ /* Center Box */
+#heroGrid{  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 400px;
+  height: 450px;
+  padding: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  margin: 25px;
+  text-align: center;
+  align-items: center;
+}
+.box{
+  margin: 0;
+}
+
+
+/*Button*/
+.button {
+background: #005864;
+border-radius: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+/*img*/
+.img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*H1*/
+.h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+/*paragraph*/
+.p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+
+/* Footer */
+
+#footer {
+  position: relative;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #005864;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerNav {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 24px 24px; 
+  text-align: left;
+ }
