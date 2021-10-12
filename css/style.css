@@ -5,41 +5,39 @@ body {
 
   /* Header */
 
-#header {
-  position: relative;
-  height: 100px;
-  left: 0px;
-  top: 0px;
+header {
   background: #005864;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /*Logo*/
 .logo {
-  position: absolute;
-  left: 24px;
-  top: 24px;
-  padding-right: 200px;
+  height: 32px;
 }
 
 /*navigation*/
 
-#navigation {
-  display: flex;
-  float: right;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-evenly;
+nav ul {
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+ 
+}
+nav ul li a{
+  text-decoration: none;
+  color: #f9fdfd;
+  padding: 12px;
+}
+nav ul li a:hover{
+  border-bottom: 2px solid white;
+}
+nav ul li a.active{
+border-bottom: 2px solid white;
 }
 
-.navBar {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-  padding: 24px 24px; 
- }
 
  /* Center Box */
 #heroGrid{  
