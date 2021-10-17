@@ -141,4 +141,9 @@ footer {
 border-bottom: 2px solid white;
 }
 
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 
