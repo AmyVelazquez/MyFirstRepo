@@ -1,0 +1,144 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fdfd;
+  margin: 0;
+}
+
+  /* Header */
+
+header {
+  background: #005864;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+/*Logo*/
+.logo {
+  height: 32px;
+}
+
+/*navigation*/
+.top-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.top-nav ul li{
+  display: inline-block;
+}
+.top-nav ul li a{
+  text-decoration: none;
+  color: #f9fdfd;
+  padding: 12px;
+}
+.top-nav ul li a:hover{
+  border-bottom: 2px solid white;
+}
+.top-nav ul li a.active{
+border-bottom: 2px solid white;
+}
+
+.main-content{
+  margin: 40px 0px;
+}
+ /* Center Box */
+ .card{
+  width: 400px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  margin: auto;
+  padding: 24px;
+  text-align: center;
+ }
+
+ .skillsCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  margin: auto;
+  padding: 24px;
+ }
+
+ .workCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  margin: 48px;
+  padding: 24px;
+ }
+
+ .card-image{
+  width: 200px;
+ }
+
+
+/*Button*/
+.primary-btn {
+ background: #005864;
+ border-radius: 10px;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 5px 5px;
+ cursor: pointer;
+}
+.primary-btn:hover {
+  background: #058292;
+ }
+
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background: #005864;
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-nav ul li{
+  display: inline-block;
+}
+.footer-nav ul li a{
+  text-decoration: none;
+  color: #f9fdfd;
+  padding: 12px;
+}
+
+.footerNav {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 24px 24px; 
+  text-align: left;
+ }
+
+.footer-nav ul li a:hover{
+  border-bottom: 2px solid white;
+}
+.footer-nav ul li a.active{
+border-bottom: 2px solid white;
+}
+
+
