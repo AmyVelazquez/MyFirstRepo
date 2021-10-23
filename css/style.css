@@ -42,6 +42,36 @@ border-bottom: 2px solid white;
 .main-content{
   margin: 40px 0px;
 }
+
+.flex-containerWork {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-containerSkills {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 36px;
+  margin-right: 0;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
  /* Center Box */
  .card{
   width: 400px;
@@ -72,8 +102,8 @@ border-bottom: 2px solid white;
   background: #FFFFFF;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
   border-radius: 20px;
-  margin: 48px;
-  padding: 24px;
+  margin: 36px;
+  padding: 18px;
  }
 
  .card-image{
